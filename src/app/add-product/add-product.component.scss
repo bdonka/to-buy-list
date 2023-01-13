@@ -1,0 +1,23 @@
+:host {
+  display: block;
+  font-family: 'Open Sans';
+
+  div {
+    width: 500px;
+
+    input {
+      height: 50px;
+      width: 300px;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 30px;
+    }
+
+    .btn {
+      height: 60px;
+      width: 100px;
+      font-size: 30px;
+      margin: 5px 20px;
+    }
+  }
+}

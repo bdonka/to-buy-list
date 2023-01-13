@@ -1,0 +1,38 @@
+:host {
+  display: block;
+  font-family: 'Open Sans';
+
+  .text {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 200px;
+    background-color: #0a4a2c;
+
+    h1 {
+      font-size: 80px;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 30px;
+    }
+  }
+
+  .img {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    top: 200px;
+    left: 0;
+    padding: 100px 0;
+    background-color: #66a688;
+
+    @media screen and (max-width: 768px){
+      display: none;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
